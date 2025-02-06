@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+<<<<<<< HEAD
 
 .number-test {
   color: white;
@@ -12,6 +13,8 @@ button {
   font-size: 50px;
 }
 
+=======
+>>>>>>> 0ee14841fae84ff62868b1f07f67d89e31107187
 html {
   scroll-behavior: smooth;
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react"
 
 function Home() {
@@ -11,6 +12,11 @@ function Home() {
             <button onClick={() =>setCount(count + 1)}>+</button>
             <button onClick={() =>setCount(count - 1)}>-</button>
         </>
+=======
+function Home {
+    return (
+        
+>>>>>>> 0ee14841fae84ff62868b1f07f67d89e31107187
     )
 }
 

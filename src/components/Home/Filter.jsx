@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react"
 
 function Filter() {
@@ -6,10 +7,14 @@ function Filter() {
 
     let filter__categoryes = ["Popular", "Novelty", "Featured", "Short films"]
 
+=======
+function Filter() {
+>>>>>>> 0ee14841fae84ff62868b1f07f67d89e31107187
     return (
         <div className="filter">
             <div id="categoryes" className="filter__categoryes anchor">
                 <div className="filter__categoryes-flex">
+<<<<<<< HEAD
                     {filter__categoryes.map((categorye, index) => (
                         <div onClick={() => {changeStatus(categorye)}}
                         className={`filter__categoryes-item ${categorye === status ? 'active-category' : '' }`}
@@ -19,6 +24,24 @@ function Filter() {
                         </div>
                     ))}
 
+=======
+                    <div onClick="changeActiveCategorySort(this)" className="filter__categoryes-item active-category">
+                        <p>Popular</p>
+                        <span></span>
+                    </div>
+                    <div onClick="changeActiveCategorySort(this)" className="filter__categoryes-item">
+                        <p>Novelty</p>
+                        <span></span>
+                    </div>
+                    <div onClick="changeActiveCategorySort(this)" className="filter__categoryes-item">
+                        <p>Featured</p>
+                        <span></span>
+                    </div>
+                    <div onClick="changeActiveCategorySort(this)" className="filter__categoryes-item">
+                        <p>Short films</p>
+                        <span></span>
+                    </div>
+>>>>>>> 0ee14841fae84ff62868b1f07f67d89e31107187
                 </div>
                 <span></span>
             </div>
