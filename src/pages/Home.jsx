@@ -1,15 +1,17 @@
-import React from "react"
+import Banner from "../components/Home/Banner"
+import Filter from "../components/Filter/Filter"
+import MoviesList from "../components/Movies/MoviesList"
+import MoviesScroll from "../components/Movies/MoviesScroll"
 
 function Home() {
-
-    const [count, setCount] =  React.useState(0)
-
-
     return (
         <>
-            <p className="number-test">{count}</p>
-            <button onClick={() =>setCount(count + 1)}>+</button>
-            <button onClick={() =>setCount(count - 1)}>-</button>
+            <Banner />
+            <div className="container">
+                <Filter />
+                <MoviesList />
+                <MoviesScroll />
+            </div>
         </>
     )
 }
