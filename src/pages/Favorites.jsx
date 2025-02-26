@@ -1,8 +1,8 @@
-import Banner from "../components/Favorites/Banner"
-import FavoritesList from "../components/Favorites/FavoritesList"
+import Banner from "../components/Favorites/Banner.jsx"
+import FavoritesList from "../components/Favorites/FavoritesList.jsx"
 import Filter from "../components/Filter/Filter.jsx"
-import MoviesList from "../components/Movies/MoviesList"
-import MoviesScroll from "../components/Movies/MoviesScroll"
+import MoviesList from "../components/Movies/MoviesList.jsx"
+import MoviesScroll from "../components/Movies/MoviesScroll.jsx"
 
 function Favorites() {
     return (
