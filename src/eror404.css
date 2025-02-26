@@ -1,0 +1,20 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.fullscreen-block {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    height: 70vh; /* 100% высоты viewport */
+    width: 100vw; /* 100% ширины viewport */
+}
+
+/* Стили для текста */
+.fullscreen-block h1 {
+    font-size: 3em; /* Размер шрифта */
+    color: white;
+    text-align: center;
+}

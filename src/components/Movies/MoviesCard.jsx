@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom"
 import star from "../../assets/icons/star.png"
 import img_film from "../../assets/ImageFilm.jpg"
 
 function MoviesCard(props) {
     return (
-        <a className="movies__card" href="./movie.html">
+        <Link className="movies__card" to="/movie">
             <p>{props.name}</p>
             <div className="movies__card-rating">
                 <img src={star} alt="" />
@@ -13,7 +14,7 @@ function MoviesCard(props) {
                 <img src={star} alt="" />
             </div>
             <img src={img_film} alt="" />
-        </a>
+        </Link>
     )
 }
 
