@@ -13,7 +13,7 @@ function MoviesCard(props) {
                 <img src={star} alt="" />
                 <img src={star} alt="" />
             </div>
-            <img src={img_film} alt="" />
+            <img src={props.imageUrl} alt="" />
         </Link>
     )
 }
